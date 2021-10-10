@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(235, 5, 5);
+}
+button {
+    margin: 10px;
+}
+.center {
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 30;
+    width: 40%;
+    border: 3px solid #73AD21;
+    background-color: aqua;
+    padding: 10px;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    background-color: rgb(44, 0, 220);
+  }
+
+h1 {
+    text-align: center;
+}
+.film {
+    margin-left: 200px;
+    width: 10%;
+    height: 10%;
+}
+.tiktok  {
+    margin-left: 60em;
+    width: 10%;
+    height: 10%;
+}

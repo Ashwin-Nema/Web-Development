@@ -1,0 +1,86 @@
+body {
+    background-color: lawngreen;
+}
+
+section {
+    margin: auto;
+    width: 60%;
+    border: 5px solid red;
+    background-color: wheat;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#firstname {
+    margin-left: 22px;
+}
+
+#lastname {
+    margin-left: 25px;
+}
+
+#email {
+    margin-left: 45px;
+}
+
+#MOBILE {
+    margin-left: 28px;
+}
+
+#Gender {
+    margin-right: 46px;
+}
+
+.address >span {
+    margin-top: 5%;
+    display: block;
+}
+
+.address >textarea {
+    margin-top: -5%;
+    margin-left: 13%;
+}
+
+#city {
+    margin-left: 78px;
+}
+
+#PIN {
+    margin-left: 42px;
+}
+
+#state {
+    margin-left: 68px;
+}
+
+#country {
+    margin-left: 40px;
+}
+
+.HOBBY {
+    margin-right: 55px;
+}
+
+.Hobby > div {
+    margin-left: 127px;
+    padding-bottom: 3%;
+}
+
+.Course {
+    margin-right: 45px;
+}
+
+@media(max-width:1400px) {
+    section{
+        width: 90%;
+    }
+}
+
+@media (max-width:950px) {
+    section{
+        width: 100%;
+    }
+}
