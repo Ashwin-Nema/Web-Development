@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#container {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 12%;
+    width: 200px;
+    height: 80px;
+    background-color: white;
+}
+
+#userInput {
+    height: 20px;
+    margin-top: 2%;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+#submit {
+    margin-top: 5%;
+    height: 20px;
+    width: 75px;
+    margin-left: 45%;
+}
+
+span {
+    padding-bottom: 10px;
+}
+
+#invalid {
+    margin-top: 10%;
+    text-align: center;
+}

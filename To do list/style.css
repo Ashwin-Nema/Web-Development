@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#output {
+    margin-left: 30%;
+    position: relative;
+    right: 170%;
+    width: 390%;
+}
+
+#output div {
+    padding-bottom: 25px;
+}
+
+
+
+#itemlabel {
+    position: relative;
+    right: 150%;
+    width: 400%;
+}
+
+.addeditem {
+    display: flex; 
+    justify-content: space-between;
+}
