@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+section {
+    background-color: #fafafa;
+}
+
+img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}

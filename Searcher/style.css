@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#top {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    width: 60%;
+}
+
+#userinput {
+    position: relative;
+}
+
+#circle {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+}
+
+#search {
+    position: absolute;
+    left: 20px;
+    top: 8px;
+}
+
+.row {
+    border-bottom: 1px solid #dfdfdf;
+    margin-left: 1%;
+}
+
+.main {
+    width: 50%;
+}
+
+.alternate {
+    background-color: #fafafa;
+}
+
+.hidden {
+    display: none;
+}
+
+#circle {
+    cursor: pointer;
+}

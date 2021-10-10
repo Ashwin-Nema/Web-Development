@@ -1,0 +1,53 @@
+.all {
+    width: 150px;
+    padding-top: 150px;
+    border-radius: 5%;
+}
+
+body {
+    color: white;
+}
+
+button {
+    padding: 10px 45px;
+    border: none;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 0 0 4px #999;
+    outline: none;
+    color: white;
+    background-color: #31abeb;
+}
+
+#first {
+    background-color: #eea742;
+}
+
+#second {
+    background-color: #0b7390;
+}
+
+#third {
+    background-color: #266498;
+}
+
+#fourth {
+    background-color: #9c8799;
+}
+
+#fifth {
+    background-color: #2672e2;
+}
+
+#button {
+    background-position: center;
+    transition: background 0.8s;
+  }
+#button:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
+
+#button:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+  }

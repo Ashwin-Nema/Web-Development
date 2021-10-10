@@ -1,0 +1,63 @@
+.container-fluid {
+    background-color: #26225a;
+    border-top: 25px solid  #413996;
+    border-bottom: 15px solid  #413996;
+    border-left: 10px solid  #413996;
+    border-right: 10px solid  #413996;
+    width: 50%;
+    margin-top: 5%;
+}
+
+#answer {
+    width: 70%;
+    height: 50px;
+    position: relative;
+    background-color: #171436;
+    display: flex;
+    border: none;
+}
+
+#finalanswer {
+    font-size: x-small;
+    border: none;
+}
+
+
+.seperator {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 70%;
+
+}
+
+button {
+    background-color:  #413996;
+    width: 100%;
+}
+
+button:active {
+    border-color: white;
+}
+
+img {
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    width: 3vw;
+    height: 10%;
+}
+
+@media (max-width:800px) {
+    .container-fluid  {
+        width: 75%;
+    }
+} 
+
+@media (max-width:400px) {
+    .container-fluid  {
+        width: 100%;
+    }
+} 

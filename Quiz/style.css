@@ -1,0 +1,19 @@
+#previous {
+    position: absolute;
+    bottom: 10px;
+    right: 125px;
+    bottom = "10px"
+    right = "125px"
+    width: 80px;
+}
+
+#next {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 80px;
+}
+
+.hidden {
+    display: none;
+}
